@@ -94,9 +94,6 @@ Based on our analysis, we recommend the following strategies for each customer s
 - The analysis assumes that RFM metrics are good indicators of customer value and behavior.
 - K-means clustering assumes spherical clusters, which may not always represent real-world customer segments accurately.
 - The optimal number of clusters (4) was chosen based on the elbow method and silhouette score. Different numbers of clusters might be appropriate for other datasets or business objectives.
-- This analysis provides a snapshot of customer behavior and should be updated regularly to capture changing patterns.
-- The recommendations are general and should be adapted based on The Look's specific business context and additional customer data not included in this analysis.
-- The dataset used is a sample and may not represent the entire customer base of The Look.
 
 ---
 
