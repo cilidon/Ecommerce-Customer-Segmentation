@@ -50,6 +50,15 @@ For the RFM analysis, we focused on the following columns:
 
 ## 3. Executive Summary
 
+| Cluster | Recency | Frequency | Monetary | Count | Percent | Label |
+|---------|---------|-----------|----------|-------|---------|-------|
+| 2 | 130.73 | 6.01 | $436.58 | 3,702 | 5.91% | Champions |
+| 3 | 121.52 | 3.57 | $205.16 | 10,959 | 17.50% | Loyal |
+| 1 | 84.11 | 1.37 | $74.72 | 20,760 | 33.14% | New |
+| 4 | 322.79 | 1.46 | $81.18 | 14,977 | 23.91% | At-Risk |
+| 0 | 579.34 | 1.59 | $94.17 | 12,236 | 19.54% | Lost |
+
+
 The analysis revealed five distinct customer segments: Champions, Loyal Customers, New Customers, At-Risk Customers, and Lost Customers. Key findings include:
 
 1. Champions and Loyal Customers (23.41% combined) drive significant revenue, accounting for over 50% of total sales.
@@ -64,6 +73,9 @@ These insights provide a foundation for targeted marketing strategies to enhance
 ## 4. Insights Deep Dive
 
 ### Clustering Results
+
+![image](https://github.com/user-attachments/assets/08ce91d1-4441-412c-bdb8-477a932fe7ef)
+
 
 1. Champions (Cluster 2: 5.91%)
  - Highest frequency (6.01 purchases) and monetary value ($436.58)
