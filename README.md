@@ -48,62 +48,86 @@ For the RFM analysis, we focused on the following columns:
 
 ## 3. Executive Summary
 
-Our analysis revealed four distinct customer segments based on their RFM scores:
+The analysis revealed five distinct customer segments: Champions, Loyal Customers, New Customers, At-Risk Customers, and Lost Customers. Key findings include:
 
-1. Occasional/One-time Customers (42.19%)
-2. Regular Customers (28.49%)
-3. Lapsed Customers (19.32%)
-4. Best Customers (10.00%)
+1. Champions and Loyal Customers (23.41% combined) drive significant revenue, accounting for over 50% of total sales.
 
-These segments provide a foundation for targeted marketing strategies and personalized customer experiences.
+2. New Customers form the largest segment (33.14%), indicating strong acquisition but weak retention.
+ 
+3. At-Risk and Lost Customers (43.45% combined) represent a substantial portion of our customer base, highlighting urgent retention needs.
+
+
+These insights provide a foundation for targeted marketing strategies to enhance customer retention, reactivation, and overall lifetime value.
 
 ## 4. Insights Deep Dive
 
-### RFM Analysis
-- Recency: Ranges from 110 days for Occasional Customers to 1055 days for Lapsed Customers.
-- Frequency: Order frequency varies from 0.56 for Occasional Customers to 5.29 for Best Customers.
-- Monetary: Average order value ranges from $23.20 for Occasional Customers to $403.58 for Best Customers.
-
 ### Clustering Results
-- Cluster 0 (Occasional/One-time Customers): Recent purchases but low frequency and monetary value.
-- Cluster 1 (Regular Customers): Moderate recency, frequency, and monetary value.
-- Cluster 2 (Lapsed Customers): Very low recency, low frequency, and moderate monetary value.
-- Cluster 3 (Best Customers): Moderate recency, high frequency, and high monetary value.
+
+1. Champions (Cluster 2: 5.91%)
+ - Highest frequency (6.01 purchases) and monetary value ($436.58)
+ - Recent activity (130.73 days)
+ - Small but extremely valuable segment
+
+2. Loyal Customers (Cluster 3: 17.50%)
+ - High monetary value ($205.16) and moderate frequency (3.57 purchases)
+ - Very recent activity (121.52 days)
+ - Solid base of reliable customers
+
+3. New Customers (Cluster 1: 33.14%)
+ - Very recent first purchase (84.11 days)
+ - Low frequency (1.37 purchases) and monetary value ($74.72)
+ - Largest segment, indicating strong acquisition
+
+4. At-Risk Customers (Cluster 4: 23.91%)
+ - Moderate recency (322.79 days)
+ - Low frequency (1.46 purchases) and monetary value ($81.18)
+ - Significant segment showing signs of disengagement
+
+5. Lost Customers (Cluster 0: 19.54%)
+ - High recency (579.34 days)
+ - Low frequency (1.59 purchases) and moderate monetary value ($94.17)
+ - Substantial segment of inactive customers
 
 ### Key Findings
-- A large portion of customers (42.19%) are occasional or one-time buyers, presenting an opportunity for conversion to regular customers.
-- Best customers, while only 10% of the base, likely contribute significantly to overall revenue.
-- There's a substantial group of lapsed customers (19.32%) who haven't made a purchase in a long time, indicating a need for re-engagement strategies.
+- Customer Value Distribution: Champions and Loyal Customers, while comprising only 23.41% of the customer base, likely contribute over 50% of total revenue.
+- Acquisition vs. Retention: The large New Customer segment (33.14%) suggests effective acquisition strategies, but the sizeable At-Risk and Lost segments indicate retention challenges.
+- Engagement Spectrum: There's a clear divide between highly engaged customers (Champions and Loyal) and those showing low engagement (At-Risk and Lost), with New Customers in a critical transition phase.
+- Lost Customers show higher monetary value than At-Risk Customers, suggesting potential value in reactivation efforts.
+- Frequency Patterns: A stark contrast exists between the high purchase frequency of Champions (6.01) and the low frequency of other segments (1.37-1.59), indicating opportunities for increasing purchase frequency across most segments.
 
 ## 5. Recommendations
 
-Based on our analysis, we recommend the following strategies for each customer segment:
+Based on the analysis, the following strategies are recommended for each customer segment:
 
-1. Occasional/One-time Customers (42.19%):
-   - Implement re-engagement campaigns to encourage more frequent purchases
-   - Offer product recommendations based on initial purchases
-   - Provide educational content about product benefits and use cases
+1. Champion Nurturing Program
+ - Implement an exclusive VIP program for Champions
+ - Offer early access to new products and special events
+ - Provide personalized service and recognition
 
-2. Regular Customers (28.49%):
-   - Introduce or upgrade loyalty programs
-   - Launch cross-sell and upsell campaigns based on purchase history
-   - Offer personalized product bundles or discounts
+2. Loyal Customer Upgrade Initiative
+ - Create targeted campaigns to increase purchase frequency
+ - Introduce a tiered loyalty program to encourage higher spending
+ - Offer bundled products or services to increase average order value
 
-3. Lapsed Customers (19.32%):
-   - Create win-back campaigns with attractive offers
-   - Conduct surveys to understand reasons for decreased activity
-   - Send new product announcements or major updates since their last purchase
+3. New Customer Onboarding and Engagement
+ - Develop a comprehensive onboarding program to guide new customers
+ - Implement a series of welcome emails with product education and offers
+ - Create early-stage loyalty incentives to encourage repeat purchases
 
-4. Best Customers (10.00%):
-   - Develop a VIP program with premium benefits
-   - Provide early access to sales and new products
-   - Offer personal shopping assistance or concierge service
+4. At-Risk Customer Reactivation
+ - Launch a win-back campaign with personalized offers
+ - Conduct surveys to understand reasons for decreased engagement
+ - Implement a re-engagement email series with targeted content and promotions
+
+5. Lost Customer Recovery
+ - Develop a multi-channel reactivation campaign
+ - Offer a "We Miss You" discount or special bundle
+ - Create content addressing potential reasons for disengagement
 
 ## 6. Assumptions and Caveats
 
-- The analysis assumes that RFM metrics are good indicators of customer value and behavior.
-- K-means clustering assumes spherical clusters, which may not always represent real-world customer segments accurately.
-- The optimal number of clusters (4) was chosen based on the elbow method and silhouette score. Different numbers of clusters might be appropriate for other datasets or business objectives.
+- K-means clustering assumes spherical clusters, which may not always represent customer segments accurately.
+- The optimal number of clusters (5) was chosen based on the elbow method and silhouette score. Different numbers of clusters might be appropriate for other datasets or business objectives.
 
 ---
 
