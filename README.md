@@ -24,6 +24,13 @@ The analysis pipeline includes:
 
 The project uses The Look dataset, which includes the following key tables:
 
+| Table Name | Description |
+|------------|-------------|
+| users      | Customer information including demographics |
+| orders     | Order details including dates and status |
+| order_items| Individual items within each order, including product and price information |
+
+
 ### Orders
 <img width="663" alt="image" src="https://github.com/user-attachments/assets/73fe3be4-a1af-4f6d-b1d1-fe3406023bd7">
 
@@ -34,11 +41,6 @@ The project uses The Look dataset, which includes the following key tables:
 <img width="938" alt="image" src="https://github.com/user-attachments/assets/05a39cad-8eec-41e3-a56e-c46ab670d4e8">
 
 
-| Table Name | Description |
-|------------|-------------|
-| users      | Customer information including demographics |
-| orders     | Order details including dates and status |
-| order_items| Individual items within each order, including product and price information |
 
 For the RFM analysis, we focused on the following columns:
 - user_id: Unique identifier for each customer
@@ -54,7 +56,7 @@ The analysis revealed five distinct customer segments: Champions, Loyal Customer
 
 2. New Customers form the largest segment (33.14%), indicating strong acquisition but weak retention.
  
-3. At-Risk and Lost Customers (43.45% combined) represent a substantial portion of our customer base, highlighting urgent retention needs.
+3. At-Risk and Lost Customers (43.45% combined) represent a substantial portion of the customer base, highlighting urgent retention needs.
 
 
 These insights provide a foundation for targeted marketing strategies to enhance customer retention, reactivation, and overall lifetime value.
