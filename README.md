@@ -24,6 +24,16 @@ The analysis pipeline includes:
 
 The project uses The Look dataset, which includes the following key tables:
 
+### Orders
+<img width="663" alt="image" src="https://github.com/user-attachments/assets/73fe3be4-a1af-4f6d-b1d1-fe3406023bd7">
+
+### Order_Items
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/69de0d03-69c1-40b0-bacb-88312de33828">
+
+### Users
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/05a39cad-8eec-41e3-a56e-c46ab670d4e8">
+
+
 | Table Name | Description |
 |------------|-------------|
 | users      | Customer information including demographics |
