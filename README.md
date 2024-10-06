@@ -61,7 +61,7 @@ For the RFM analysis, we focused on the following columns:
 
 The analysis revealed five distinct customer segments: Champions, Loyal Customers, New Customers, At-Risk Customers, and Lost Customers. Key findings include:
 
-1. Champions and Loyal Customers (23.41% combined) drive significant revenue, accounting for over 50% of total sales.
+1. Champions and Loyal Customers (23.41% combined) drive significant revenue, accounting for over 50% of total sales with good frequency, a purchase every four months or every season.
 
 2. New Customers form the largest segment (33.14%), indicating strong acquisition but weak retention.
  
